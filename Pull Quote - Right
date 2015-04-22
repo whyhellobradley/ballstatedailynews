@@ -1,0 +1,133 @@
+<style type="text/css">
+	.pullq {
+		float:right;
+		width:250px;
+		margin-left:25px;
+		margin-right:-125px;
+		margin-top:15px;
+		margin-bottom:15px;
+		font-size:14px;
+	}
+        .hrrr {
+              margin-bottom:-5px;
+              border: 1px solid #62a69f;
+              float:left;
+              width: 100%;
+        }
+
+	@media screen and (max-width: 1500px) {
+	    .pullq {
+		float:none;
+		width:100%;
+		margin-right:0;
+		margin-left:0;
+		margin-top:25px;
+		margin-bottom:15px;
+		font-size:14px;
+	    }
+		.table2 {
+		    margin-top:20px;
+		    margin-bottom:20px;
+		    font-size:20px;
+		    padding-right: 100px;
+		    margin-right: 200px;
+		    width: 100%;
+	   }
+
+	
+        .hrrr {
+              margin-bottom:12px;
+              border: 1px solid #62a69f;
+              float:left;
+              width: 100%;
+        }
+	}
+
+	@media screen and (max-width: 1000px) {
+			    .pullq {
+		float:none;
+		width:98%;
+		margin-right:0;
+		margin-left:0;
+		margin-top:25px;
+		margin-bottom:15px;
+		font-size:14px;
+	    }
+		.table2 {
+		    margin-top:20px;
+		    margin-bottom:20px;
+			width:100%;
+		    font-size:20px;
+		    padding-left: 70px;
+		    margin-left: 200px;
+	   }
+	   	@media screen and (max-width: 500px) {
+	    .pullq {
+		float:none;
+		width:100%;
+		margin-right:0;
+		margin-left:0;
+		margin-top:25px;
+		margin-bottom:15px;
+		font-size:14px;
+	    }
+		.table2 {
+		    margin-top:20px;
+		    margin-bottom:20px;
+		    font-size:20px;
+		    padding-left: 0px;
+		    margin-left: 200px;
+	   }
+
+	
+        .hrrr {
+              margin-bottom:12px;
+              border: 1px solid #62a69f;
+              float:left;
+              width: 100%;
+        }
+	}
+	}
+
+
+	.table2 {
+	    margin-top:20px;
+	    margin-bottom:20px;
+	     margin-right: 0px;
+	    font-size:20px
+	   }
+	   .hr1 {
+              margin-bottom:12px;
+              border: 1px solid #62a69f;
+              float:right;
+              margin-top: -5px;
+              width: 100%;
+        }
+        .qmarks {
+        	width:5%;
+        	float:right;
+        	font-size:60px;
+        	margin-bottom:8px;
+        	color:#62a69f;
+        }
+</style>
+<aside class="pullq">
+<hr class="hr1">
+<table class="table2">
+<tbody>
+<tr>
+	<td valign="top">
+		<strong><div class="qmarks"><center>"</center></div></strong>
+	</td>
+	<td>
+		<center><strong>I really believe that music, good music especially, can make you a better person.</strong></center>
+	</td>
+	<td valign="top">
+		<strong><div class="qmarks"><center>"</center></div></strong>
+	</td>
+</tr>
+</tbody>
+</table>
+<center>- <em>Travis Harvey <br> Village Green Record's Owner</em></center>
+<hr class="hrrr">
+</aside>
