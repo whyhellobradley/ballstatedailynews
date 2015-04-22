@@ -1,0 +1,31 @@
+<style type="text/css">
+	html {
+		width: 800px;
+		position: absolute;
+	    top:0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    margin: auto;
+	}
+	@media screen and (max-width: 700px) {
+		html {
+			width: 600px;
+		}
+	}
+	@media screen and (max-width: 600px) {
+		html {
+			width: 500px;
+		}
+	}
+	@media screen and (max-width: 500px) {
+		html {
+			width: 400px;
+		}
+	}
+	@media screen and (max-width: 400px) {
+		html {
+			width: 300px;
+		}
+	}
+</style>
