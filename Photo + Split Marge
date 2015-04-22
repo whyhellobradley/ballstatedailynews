@@ -1,0 +1,213 @@
+<style type="text/css">
+        .pictures {
+            float:right;
+            width:430px;
+            margin-left:25px;
+            font-size:13px;
+            line-height:17px;
+            margin-right:0
+        }
+        
+        .hrr {
+            display:none
+        }
+        
+        @media screen and (max-width: 700px) {
+            .pictures {
+                float:right;
+                width:320px;
+                margin-left:25px;
+                font-size:13px;
+                line-height:16px
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            .pictures {
+                float:right;
+                width:270px;
+                margin-left:25px;
+                font-size:13px;
+                line-height:16px
+            }
+        }
+        
+        @media screen and (max-width: 500px) {
+            .pictures {
+                float:none;
+                width:100%;
+                margin-right:0;
+                margin-left:0;
+                margin-top:25px;
+                margin-bottom:15px;
+                font-size:14px
+            }
+            
+            .hrr {
+                display:block
+            }
+        }
+</style>
+<aside class="pictures">
+    <img src="LINKLINKLINKLINKLINKLINKLINKLINKLINKLINK" style="width:100%;">
+    <p><strong>WORDSWORDSWORDSWORDS</strong> WORDSWORDSWORDSWORDSWORDS<i>DN PHOTO BREANNA DAUGHERTY</i></p>
+</aside>
+<hr class="hrr">
+
+
+
+
+
+
+
+<style type="text/css">
+        .margbox {
+            float:right;
+            width:350px;
+            margin-bottom:10px;
+            margin-right:0;
+            margin-left:10px
+        }
+        
+        @media screen and (max-width: 800px) {
+            .margbox {
+                width:300px;
+            }
+        }
+        @media screen and (max-width: 600px) {
+               .margbox {
+                     width:260px;
+            }
+        }
+   
+        @media screen and (max-width: 500px) {
+            .margbox {
+                padding:10px;
+                width:94%;
+                margin-top:10px;
+                margin-bottom:20px;
+                margin-left:10px;
+                margin-right:0;
+display: none;
+            }
+        }
+        
+        .table1 {
+            width:100%
+        }
+        
+        .table1,th#t01,td#t01 {
+            border:1px solid #62a69f;
+            border-collapse:collapse
+        }
+        
+        th#t01,td#t01 {
+            padding:9px;
+            text-align:left
+        }
+        
+        .table1#t01 th {
+            background-color:#62a69f;
+            color:#fff
+        }
+        
+        .pp {
+            padding-left:10px;
+            padding-right:10px;
+            line-heigth:23px;
+        }
+</style>
+<aside class="margbox">
+    <table border="1" class="table1" id="t01" style="border: 3px solid #62a69f;float:left;">
+        <tr>
+            <td colspan="1" style="background-color: #62A69F">&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td>
+                <aside style="padding:5px;">
+                    <p class="pp"><strong>TITLETITLETITLETITLETITLETITLETITLE</strong></p>
+                    <p class="pp">WORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDS</p>
+                </aside>
+            </td>
+        </tr>
+    </table>
+</aside>
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+        .margbox1 {
+            float:right;
+            width:350px;
+            margin-bottom:10px;
+            margin-right:0;
+            margin-left:10px;
+display: none;
+        }
+        
+        @media screen and (max-width: 800px) {
+            .margbox1 {
+                width:300px;
+            }
+        }
+        
+        @media screen and (max-width: 500px) {
+            .margbox1 {
+                padding:10px;
+                width:94%;
+                margin-top:10px;
+                margin-bottom:20px;
+                margin-left:10px;
+                margin-right:0;
+display: block;
+            }
+        }
+        
+        .table1 {
+            width:100%
+        }
+        
+        .table1,th#t01,td#t01 {
+            border:1px solid #62a69f;
+            border-collapse:collapse
+        }
+        
+        th#t01,td#t01 {
+            padding:9px;
+            text-align:left
+        }
+        
+        .table1#t01 th {
+            background-color:#62a69f;
+            color:#fff
+        }
+        
+        .pp {
+            padding-left:10px;
+            padding-right:10px;
+            line-heigth:23px;
+        }
+</style>
+<aside class="margbox1">
+    <table border="1" class="table1" id="t01" style="border: 3px solid #62a69f;float:left;">
+        <tr>
+            <td colspan="1" style="background-color: #62A69F">&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td>
+                <aside style="padding:5px;">
+                    <p class="pp"><strong>TITLETITLETITLETITLETITLETITLETITLE</strong></p>
+                    <p class="pp">WORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDS</p>
+                </aside>
+            </td>
+        </tr>
+    </table>
+</aside>
