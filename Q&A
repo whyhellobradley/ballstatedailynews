@@ -1,3 +1,6 @@
+
+
+
 <style type="text/css">
         .margbox {
             margin-bottom:10px;
@@ -49,7 +52,7 @@
         .pp {
             padding-left:10px;
             padding-right:10px;
-            line-heigth:23px;
+            line-height:23px;
         }
 
     .numbers {
@@ -63,220 +66,136 @@
 
     dd {
       display: block;
-      margin-left: 60px;
-      padding-top: 10px;
+      margin-left: 35px;
+      margin-top: -30px;
+      padding-top: 0px;
       padding-bottom: 10px;
     }
 </style>
-
-
-<style type="text/css">
-            .pictures2 {
-                display: none;
-            }
-        .pictures {
-            float:right;
-            width:450px;
-            margin-left:25px;
-            font-size:13px;
-            line-height:17px;
-            margin-right:0
-        }
-        
-        .hrr {
-            display:none
-        }
-        
-        @media screen and (max-width: 700px) {
-            .pictures {
-                float:right;
-                width:350px;
-                margin-left:25px;
-                font-size:13px;
-                line-height:16px
-            }
-        }
-        
-        @media screen and (max-width: 600px) {
-            .pictures {
-                float:right;
-                width:300px;
-                margin-left:25px;
-                font-size:13px;
-                display: none;
-                line-height:16px
-            }
-            .pictures2 {
-                display: block;
-            }
-        }
-
-</style>
-<aside class="pictures2">
-    <img src="http://media.bsd.s3.amazonaws.com/17792_feministartist_carolrosseti_007_copyp.jpg" style="width:100%;">
-    <p><i>DN PHOTO EMMA ROGERS</i></p>
-</aside>
-<aside class="margbox">
-                <aside style="padding:5px;">
-    <table border="1" class="table1" id="t01" style="float:left;">
+<table border="1" class="table1" id="t01" style="float:left;">
         <tr><td>
-                <p class="pp">Illustrator Carol Rossetti gained internet fame after her feminist art series "The Women Project" went viral last year. The Brazil-based graphic designer spoke in Art and Journalism Building 175 last night as part of the Women and Gender Studies' week-long celebration of women, "Sister, Cister!" Here, she answers some questions:</p>
-        </td>
-
-<td rowspan="2"><aside class="pictures">
-    <img src="http://media.bsd.s3.amazonaws.com/17792_feministartist_carolrosseti_007_copyp.jpg" style="width:100%;">
-    <p><i>DN PHOTO EMMA ROGERS</i></p>
-</aside></td>
-
-
-
-        </tr>
-
-
-
-
-
-
-
-
-
-
-
-        
-        <tr><td colspan="2">
-                    <p class="pp"><strong><font class="numbers">111111111111</font> <DD>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</DD></strong></p>
+                <p>
+                        As students' schedules open up before finals week,&nbsp;campus will crawl out of its end-of-semester hibernation, heading to bars and house parties to&nbsp;celebrate the nice weather and the&nbsp;end of the year.&nbsp;
+                </p>
         </td></tr>
-        <tr><td colspan="2">
-                    <p class="pp"><strong><font class="numbers">222222222222</font></strong> <DD>222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222</DD></p>
+        <tr><td>
+                <p>
+                        The Daily News sat down with two University Police Department officers&mdash;Chief Jim Duckham and midnight shift supervisor Sergeant Matt Gaither&mdash;to ask them about their weekend patrols and get answers to questions students may be asking this time of the year.
+                </p>
         </td></tr>
-
-
-
-
-
-
-
-
-
-
-        <tr><td colspan="2">
-                    <p class="pp"><strong><font class="numbers">111111111111</font> <DD>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</DD></strong></p>
+        <tr><td>
+                <p>
+                        <strong style="font-size:20px;">What would you say to students who think that&nbsp;on the weekends, UPD is the party police?</strong>
+                </p>
         </td></tr>
-        <tr><td colspan="2">
-                    <p class="pp"><strong><font class="numbers">222222222222</font></strong> <DD>222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222</DD></p>
+        <tr><td>
+                <p>
+                        <strong>Chief Duckham:</strong>  <DD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I think that’s a misconception. We don’t do anything different on the weekends as far as our patrol geography. We’re responsive to our community’s complaints. We focus on the quality of life in the neighborhoods as far as noise and traffic, behavior, criminal mischief. Most of our calls on the weekends are about complaints. People will call about a loud party or a disorderly group.</DD>
+                </p>
         </td></tr>
-
-
-
-
-
-
-
-
-
-
-
-
-        <tr><td colspan="2">
-                    <p class="pp"><strong><font class="numbers">111111111111</font> <DD>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</DD></strong></p>
+        <tr><td>
+                <p>
+                        <strong>Sergeant Gaither:</strong> <DD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We’re not going out [with the] primary focus to target parties. If it affects quality of life, if it’s very large and is deemed unsafe, we’re going to go out and try to render that situation safe.</DD>
+                </p>
         </td></tr>
-        <tr><td colspan="2">
-                    <p class="pp"><strong><font class="numbers">222222222222</font></strong> <DD>222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222</DD></p>
+        <tr><td>
+                <p>
+                        <strong style="font-size:20px;">What prompts UPD to go to a party?</strong>
+                </p>
         </td></tr>
-
-
-
-
-
-
-
-
-
-
-
-
-        <tr><td colspan="2">
-                    <p class="pp"><strong><font class="numbers">111111111111</font> <DD>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</DD></strong></p>
+        <tr><td>
+                <p>
+                        <strong>CD:</strong> <DD>Obviously if we see 400 people on the roof of a home ... someone could get hurt, or you have a small frame house with 50 people in the lawn, that would draw your attention. The initial contact is to find the homeowner and say ‘Hey, can you turn the noise down, could you bring people inside?' If it’s too loud, 'Hey, you have to disperse.' And we find most people are really cooperative. If you’re having a huge party at your house, the next person has a huge paper due. We try and find the balance.</DD>
+                </p>
         </td></tr>
-        <tr><td colspan="2">
-                    <p class="pp"><strong><font class="numbers">222222222222</font></strong> <DD>222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222</DD></p>
+        <tr><td>
+                <p>
+                        <strong style="font-size:20px;">Do the police check party Twitter feeds?</strong>
+                </p>
         </td></tr>
-
-
-
-
-
-
-
-
-
-
-
-
-        <tr><td colspan="2">
-                    <p class="pp"><strong><font class="numbers">111111111111</font> <DD>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</DD></strong></p>
+        <tr><td>
+                <p>
+                        <strong>SG:</strong> <DD>My officers and I haven't used it to track parties, no.</DD>
+                </p>
         </td></tr>
-        <tr><td colspan="2">
-                    <p class="pp"><strong><font class="numbers">222222222222</font></strong> <DD>222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222</DD></p>
+        <tr><td>
+                <p>
+                        <strong>CD:</strong> <DD>I don’t think Twitter would be the thing that would shut the party down. Maybe the 400 people that show up.</DD>
+                </p>
         </td></tr>
-
-
-
-
-
-
-
-
-
-
-
-
-        <tr><td colspan="2">
-                    <p class="pp"><strong><font class="numbers">111111111111</font> <DD>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</DD></strong></p>
+        <tr><td>
+                <p>
+                        <strong style="font-size:20px;">What does it look like to police when people run or all leave from a party at once?</strong>
+                </p>
         </td></tr>
-        <tr><td colspan="2">
-                    <p class="pp"><strong><font class="numbers">222222222222</font></strong> <DD>222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222</DD></p>
+        <tr><td>
+                <p>
+                        <strong>CD:</strong> <DD>We’re not going to chase them. We’re safety-driven. If a person runs out of a party and they are so obviously intoxicated and they need our assistance, that’s going to draw our attention. If 50 people run away and they are leaving, then we have kind of done our job&mdash;the party is dispersed.</DD>
+                </p>
         </td></tr>
-
-
-
-
-
-
-
-
-
-
-
-
-        <tr><td colspan="2">
-                    <p class="pp"><strong><font class="numbers">111111111111</font> <DD>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</DD></strong></p>
+        <tr><td>
+                <p>
+                        <strong>SG:</strong> <DD>I’ll make sure other officers are in the area to get those people dispersed so they aren’t out on the street, impeding traffic. We’re not there to run people off in all sorts of directions, because that’s when people start jumping fences, start hitting cars and doing stuff we don’t want them to do.</DD>
+                </p>
         </td></tr>
-        <tr><td colspan="2">
-                    <p class="pp"><strong><font class="numbers">222222222222</font></strong> <DD>222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222</DD></p>
+        <tr><td>
+                <p>
+                        <strong style="font-size:20px;">What are the rules concerning open containers in yards, sidewalks, etc.? </strong>
+                </p>
         </td></tr>
-
-
-
-
-
-
-
-
-
-
-
-
-        <tr><td colspan="2">
-                    <p class="pp"><strong><font class="numbers">111111111111</font> <DD>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</DD></strong></p>
+        <tr><td>
+                <p>
+                        <strong>SG:</strong> <DD>There’s no actual law on that. If you’re going to walk down the road [with an open container] ... it does nothing but draw attention to you. If you’re going to drink at a bar, do it at a bar. If you’re going to do it at a house, do it at a house. Is there anything necessarily against the law? No, there’s not. But it’s not necessarily the smartest thing to do that kind of thing. Trash is an issue.The biggest thing we find is trash&mdash;cups thrown down, bottles thrown down. That just looks bad when the neighborhood is trashed.</DD>
+                </p>
         </td></tr>
-        <tr><td colspan="2">
-                    <p class="pp"><strong><font class="numbers">222222222222</font></strong> <DD>222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222</DD></p>
+        <tr><td>
+                <p>
+                        <strong style="font-size:20px;">When does UPD stop people who are walking?</strong>
+                </p>
         </td></tr>
-
-
-
-
-    </table>
-  </aside>
-</aside>
+        <tr><td>
+                <p>
+                        <strong>CD:</strong> <DD>If you and a group of your friends are walking back to campus, we’re not going to make contact with you unless something draws our attention&mdash;if somebody is really boisterous or somebody looks like they need medical attention. It’s making sure you are safe and ... [making sure]&nbsp;a poor choice somebody made doesn’t turn into a really bad situation.</DD>
+                </p>
+        </td></tr>
+        <tr><td>
+                <p>
+                        <strong>SG:</strong> <DD>If someone is by themselves, they may not be able to make the decision to seek medical attention. They might need to go to the hospital, they might need EMS, they might need a sober friend to stay with. It’s something safety-minded we have to have for the campus.</DD>
+                </p>
+        </td></tr>
+        <tr><td>
+                <p>
+                        <strong style="font-size:20px;">How does UPD respond to alcohol situations in the residence halls? </strong>
+                </p>
+        </td></tr>
+        <tr><td>
+                <p>
+                        <strong>SG:</strong> <DD>The residence halls are obligated through housing to make sure their residents are safe. If someone shows signs of upper levels of impairment, [they call us and] we are going to have an ambulance come and check them out. Housing doesn’t want people in the dorm that are a danger to themselves.</DD>
+                </p>
+        </td></tr>
+        <tr><td>
+                <p>
+                        <strong>CD:</strong> <DD>Housing is in a support role. They are more cognizant of people coming in that are intoxicated. They may be more apt to call us than somebody at a house party off-campus.</DD>
+                </p>
+        </td></tr>
+        <tr><td>
+                <p>
+                        <strong>Does UPD have many response calls in the Village? </strong>
+                </p>
+        </td></tr>
+        <tr><td>
+                <p>
+                        <strong>SG:</strong> <DD>Indiana State Excise Police does a lot of the alcohol enforcement in the bars. We may get called to the bars to assist them or assist Muncie Police if there is a problem, but we don’t go to the bars to target alcohol enforcement, regulations. Excise has the responsibility for that.</DD>
+                </p>
+        </td></tr>
+        <tr><td>
+                <p>
+                        <strong>How are Excise Police different? </strong>
+                </p>
+        </td></tr>
+        <tr><td>
+                <p>
+                        <strong>SG:</strong> <DD>They target a lot of alcohol violations, alcohol sales. They have different rules they can follow as far as checking I.D., citing people. They may have extra officers down for patrols during busy times. Our primary working relationship with them is good, but it is an assistance role. If they need more officers for something, we obviously assist them. As far as their primary role of alcohol enforcement, rules and regulations, we don’t step in and jointly go after that. That’s something they do individually.</DD>
+                </p>
+        </td></tr>
+</table>
