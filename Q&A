@@ -1,0 +1,282 @@
+<style type="text/css">
+        .margbox {
+            margin-bottom:10px;
+            margin-right:0;
+            margin-left:10px
+        }
+        
+        @media screen and (max-width: 800px) {
+            .margbox {
+                width:100%;
+            }
+        }
+        @media screen and (max-width: 600px) {
+               .margbox {
+                     width:100%;
+            }
+        }
+   
+        @media screen and (max-width: 500px) {
+            .margbox {
+                padding:10px;
+                width:100%;
+                margin-top:10px;
+                margin-bottom:20px;
+                margin-left:10px;
+                margin-right:0;
+            }
+        }
+        
+        .table1 {
+            width:100%;
+             border:0px solid #fff;
+        }
+        
+        .table1,th#t01,td#t01 {
+            border:0px solid #fff;
+            border-collapse:collapse
+        }
+        
+        th#t01,td#t01 {
+            padding:9px;
+        }
+        
+        .table1#t01 th {
+            background-color:#62a69f;
+            color:#fff
+        }
+        
+        .pp {
+            padding-left:10px;
+            padding-right:10px;
+            line-heigth:23px;
+        }
+
+    .numbers {
+        font-size:20px;
+        float:left;
+        margin-top:15px;
+        padding-bottom:10px;
+        padding-top: 10px;
+        padding-right:10px;
+    }
+
+    dd {
+      display: block;
+      margin-left: 60px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+</style>
+
+
+<style type="text/css">
+            .pictures2 {
+                display: none;
+            }
+        .pictures {
+            float:right;
+            width:450px;
+            margin-left:25px;
+            font-size:13px;
+            line-height:17px;
+            margin-right:0
+        }
+        
+        .hrr {
+            display:none
+        }
+        
+        @media screen and (max-width: 700px) {
+            .pictures {
+                float:right;
+                width:350px;
+                margin-left:25px;
+                font-size:13px;
+                line-height:16px
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            .pictures {
+                float:right;
+                width:300px;
+                margin-left:25px;
+                font-size:13px;
+                display: none;
+                line-height:16px
+            }
+            .pictures2 {
+                display: block;
+            }
+        }
+
+</style>
+<aside class="pictures2">
+    <img src="http://media.bsd.s3.amazonaws.com/17792_feministartist_carolrosseti_007_copyp.jpg" style="width:100%;">
+    <p><i>DN PHOTO EMMA ROGERS</i></p>
+</aside>
+<aside class="margbox">
+                <aside style="padding:5px;">
+    <table border="1" class="table1" id="t01" style="float:left;">
+        <tr><td>
+                <p class="pp">Illustrator Carol Rossetti gained internet fame after her feminist art series "The Women Project" went viral last year. The Brazil-based graphic designer spoke in Art and Journalism Building 175 last night as part of the Women and Gender Studies' week-long celebration of women, "Sister, Cister!" Here, she answers some questions:</p>
+        </td>
+
+<td rowspan="2"><aside class="pictures">
+    <img src="http://media.bsd.s3.amazonaws.com/17792_feministartist_carolrosseti_007_copyp.jpg" style="width:100%;">
+    <p><i>DN PHOTO EMMA ROGERS</i></p>
+</aside></td>
+
+
+
+        </tr>
+
+
+
+
+
+
+
+
+
+
+
+        
+        <tr><td colspan="2">
+                    <p class="pp"><strong><font class="numbers">111111111111</font> <DD>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</DD></strong></p>
+        </td></tr>
+        <tr><td colspan="2">
+                    <p class="pp"><strong><font class="numbers">222222222222</font></strong> <DD>222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222</DD></p>
+        </td></tr>
+
+
+
+
+
+
+
+
+
+
+        <tr><td colspan="2">
+                    <p class="pp"><strong><font class="numbers">111111111111</font> <DD>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</DD></strong></p>
+        </td></tr>
+        <tr><td colspan="2">
+                    <p class="pp"><strong><font class="numbers">222222222222</font></strong> <DD>222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222</DD></p>
+        </td></tr>
+
+
+
+
+
+
+
+
+
+
+
+
+        <tr><td colspan="2">
+                    <p class="pp"><strong><font class="numbers">111111111111</font> <DD>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</DD></strong></p>
+        </td></tr>
+        <tr><td colspan="2">
+                    <p class="pp"><strong><font class="numbers">222222222222</font></strong> <DD>222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222</DD></p>
+        </td></tr>
+
+
+
+
+
+
+
+
+
+
+
+
+        <tr><td colspan="2">
+                    <p class="pp"><strong><font class="numbers">111111111111</font> <DD>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</DD></strong></p>
+        </td></tr>
+        <tr><td colspan="2">
+                    <p class="pp"><strong><font class="numbers">222222222222</font></strong> <DD>222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222</DD></p>
+        </td></tr>
+
+
+
+
+
+
+
+
+
+
+
+
+        <tr><td colspan="2">
+                    <p class="pp"><strong><font class="numbers">111111111111</font> <DD>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</DD></strong></p>
+        </td></tr>
+        <tr><td colspan="2">
+                    <p class="pp"><strong><font class="numbers">222222222222</font></strong> <DD>222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222</DD></p>
+        </td></tr>
+
+
+
+
+
+
+
+
+
+
+
+
+        <tr><td colspan="2">
+                    <p class="pp"><strong><font class="numbers">111111111111</font> <DD>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</DD></strong></p>
+        </td></tr>
+        <tr><td colspan="2">
+                    <p class="pp"><strong><font class="numbers">222222222222</font></strong> <DD>222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222</DD></p>
+        </td></tr>
+
+
+
+
+
+
+
+
+
+
+
+
+        <tr><td colspan="2">
+                    <p class="pp"><strong><font class="numbers">111111111111</font> <DD>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</DD></strong></p>
+        </td></tr>
+        <tr><td colspan="2">
+                    <p class="pp"><strong><font class="numbers">222222222222</font></strong> <DD>222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222</DD></p>
+        </td></tr>
+
+
+
+
+
+
+
+
+
+
+
+
+        <tr><td colspan="2">
+                    <p class="pp"><strong><font class="numbers">111111111111</font> <DD>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</DD></strong></p>
+        </td></tr>
+        <tr><td colspan="2">
+                    <p class="pp"><strong><font class="numbers">222222222222</font></strong> <DD>222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222</DD></p>
+        </td></tr>
+
+
+
+
+    </table>
+  </aside>
+</aside>
