@@ -1,0 +1,225 @@
+<style type="text/css">
+        .pictures {
+            float:right;
+            width:430px;
+            margin-left:25px;
+            font-size:13px;
+            line-height:17px;
+            margin-right:0
+        }
+        
+        .hrr {
+            display:none
+        }
+        
+        @media screen and (max-width: 700px) {
+            .pictures {
+                float:right;
+                width:320px;
+                margin-left:25px;
+                font-size:13px;
+                line-height:16px
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            .pictures {
+                float:right;
+                width:270px;
+                margin-left:25px;
+                font-size:13px;
+                line-height:16px
+            }
+        }
+        
+        @media screen and (max-width: 500px) {
+            .pictures {
+                float:none;
+                width:100%;
+                margin-right:0;
+                margin-left:0;
+                margin-top:25px;
+                margin-bottom:15px;
+                font-size:14px
+            }
+            
+            .hrr {
+                display:block
+            }
+        }
+</style>
+<aside class="pictures">
+    <img src="LINKLINKLINKLINKLINKLINKLINKLINKLINKLINKLINKLINKLINKLINKLINKLINKLINKLINK" style="width:100%;">
+    <p><strong>WORDSWORDSWORDSWORDSWORDSWORDS</strong> WORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDSWORDS <i>CREDITCREDITCREDITCREDITCREDITCREDITCREDITCREDITCREDITCREDIT</i></p>
+</aside>
+<hr class="hrr">
+
+
+
+
+
+
+
+
+<style>
+    table {
+        width:400px;
+        table-layout:fixed;
+        line-height:22px
+    }
+    
+    table,th,td {
+        border:0 solid red;
+        border-collapse:collapse
+    }
+    
+    th,td {
+        padding:9px;
+        text-align:left
+    }
+    
+    table#t01 th {
+        background-color:#62a69f;
+        color:#fff
+    }
+    
+    #t02 {
+        display:none
+    }
+    
+
+
+        @media screen and (max-width: 700px) {
+            table {
+                float:right;
+                width:315px;
+                margin-left:25px;
+                font-size:13px;
+                line-height:16px
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            table {
+                float:right;
+                width:250px;
+                margin-left:25px;
+                font-size:13px;
+                line-height:16px
+            }
+        }
+        
+    @media screen and (max-width: 500px) {
+table {
+                float;none;
+                width:100%;
+                margin-left:0px;
+                margin-right:0px;
+                font-size:auto;
+                line-height:auto;
+}
+
+        #t01 {
+            display:none
+        }
+        
+        #t02 {
+            display: table;
+        }
+    }
+</style>
+<table id="t01" border="1" style="border: 3px solid #62a69f;float:right;">
+	<tr>
+	    <td colspan="4" bgcolor="62a69f"></td>
+	</tr>
+	<tr>
+	    <td colspan="4"><center><font size="5px">TITLETITLETITLETITLETITLETITLETITLETITLETITLE</font></center></td>
+	</tr>
+	<tr>
+	    <td><center><strong>111111111111111111111111</strong></center></td>
+	    <td><center><strong>111111111111111111111111</strong></center></td>
+	    <td><center><strong>111111111111111111111111</strong></center></td>
+	    <td><center><strong>111111111111111111111111</strong></center></td>
+	</tr>
+	<tr>
+	    <td><center><strong>222222222222222222222222</strong></center></td>
+	    <td><center>222222222222222222222222</center></td>
+	    <td><center>222222222222222222222222</center></td>
+	    <td><center>222222222222222222222222</center></td>
+	</tr>
+	<tr>
+	    <td><center><strong>333333333333333333333333</strong></center></td>
+	    <td><center>333333333333333333333333</center></td>
+	    <td><center>333333333333333333333333</center></td>
+	    <td><center>333333333333333333333333</center></td>
+	</tr>
+	<tr>
+	    <td><center><strong>444444444444444444444444</strong></center></td>
+	    <td><center>444444444444444444444444</center></td>
+	    <td><center>444444444444444444444444</center></td>
+	    <td><center>444444444444444444444444</center></td>
+	</tr>
+	<tr>
+	    <td><center><strong>555555555555555555555555</strong></center></td>
+	    <td><center>555555555555555555555555</center></td>
+	    <td><center>555555555555555555555555</center></td>
+	    <td><center>555555555555555555555555</center></td>
+	</tr>
+	<tr>
+	    <td><center><strong>666666666666666666666666</strong></center></td>
+	    <td><center>666666666666666666666666</center></td>
+	    <td><center>666666666666666666666666</center></td>
+	    <td><center>666666666666666666666666</center></td>
+	</tr>
+</table>
+
+
+
+
+
+
+
+<table id="t02" border="1" style="border: 3px solid #62a69f;float:left;">
+	<tr>
+	    <td colspan="4" bgcolor="62a69f"></td>
+	</tr>
+	<tr>
+	    <td colspan="4"><center><font size="5px">TITLETITLETITLETITLETITLETITLETITLETITLETITLE</font></center></td>
+	</tr>
+	<tr>
+	    <td><center><strong>111111111111111111111111</strong></center></td>
+	    <td><center><strong>111111111111111111111111</strong></center></td>
+	    <td><center><strong>111111111111111111111111</strong></center></td>
+	    <td><center><strong>111111111111111111111111</strong></center></td>
+	</tr>
+	<tr>
+	    <td><center><strong>222222222222222222222222</strong></center></td>
+	    <td><center>222222222222222222222222</center></td>
+	    <td><center>222222222222222222222222</center></td>
+	    <td><center>222222222222222222222222</center></td>
+	</tr>
+	<tr>
+	    <td><center><strong>333333333333333333333333</strong></center></td>
+	    <td><center>333333333333333333333333</center></td>
+	    <td><center>333333333333333333333333</center></td>
+	    <td><center>333333333333333333333333</center></td>
+	</tr>
+	<tr>
+	    <td><center><strong>444444444444444444444444</strong></center></td>
+	    <td><center>444444444444444444444444</center></td>
+	    <td><center>444444444444444444444444</center></td>
+	    <td><center>444444444444444444444444</center></td>
+	</tr>
+	<tr>
+	    <td><center><strong>555555555555555555555555</strong></center></td>
+	    <td><center>555555555555555555555555</center></td>
+	    <td><center>555555555555555555555555</center></td>
+	    <td><center>555555555555555555555555</center></td>
+	</tr>
+	<tr>
+	    <td><center><strong>666666666666666666666666</strong></center></td>
+	    <td><center>666666666666666666666666</center></td>
+	    <td><center>666666666666666666666666</center></td>
+	    <td><center>666666666666666666666666</center></td>
+	</tr>
+</table>
