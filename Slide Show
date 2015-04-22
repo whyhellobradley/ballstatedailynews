@@ -1,0 +1,243 @@
+<script>
+  $(function(){
+  $('.album-frame .photo').click(function(){
+    $(this).clone().appendTo('#overlay');
+    $('#overlay').fadeIn(300);
+  });
+  $('#overlay').click(function(){
+    $(this).fadeOut(300).find('.photo').remove();
+  });
+});
+</script>
+
+<style>
+.wholething {
+  width: 800px;
+  height: 550px;
+  margin-left: 20px;
+  float: right;
+}
+
+  .album-frame {
+  position: absolute;
+  width: 800px; height: 500px;
+  padding: 10px;margin: auto;
+  border: 1px solid hsla(0, 0%, 0%, .1);
+}
+.album-frame .thumb {
+  cursor: pointer;
+  position: relative;
+  float: left;
+  width: 30px; height: 30px;
+  margin-right: 10px;
+  outline: 3px solid transparent;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10px;
+  opacity: .3;
+
+  -webkit-transition: opacity .3s linear;
+}
+.album-frame input[type=radio]:checked + .thumb { cursor: default; opacity: 1; }
+.album-frame .photo {
+  cursor: pointer;
+  cursor: -webkit-zoom-in;
+  position: absolute;
+  top: 45px; left: 10px; right: 10px; bottom: 10px;
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat:no-repeat;
+  display: block;
+  opacity: 0;
+  z-index: 0;
+  overflow: hidden;
+  -webkit-transition: opacity .3s linear;
+}
+.album-frame input[type=radio]:checked + .thumb + .photo { opacity: 1; z-index: 1; }
+
+#overlay {
+  cursor: pointer;
+  cursor: -webkit-zoom-out;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: #151515;
+  display: none;
+  z-index: 999;
+}
+#overlay .photo {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto auto;
+}
+.italic { font-style: italic; }
+.small { font-size: 0.8em; }
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+  /** Default lightbox to hidden */
+  display: none;
+
+  /** Position and style */
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+  /** Pad the lightbox image */
+  max-width: 90%;
+  max-height: 80%;
+  margin-top: 2%;
+}
+
+.lightbox:target {
+  /** Remove default browser outline */
+  outline: none;
+
+  /** Unhide lightbox **/
+  display: block;
+}
+.captions {
+	background:rgba(255, 255, 255, 0);height:500px;
+}
+.cap2 {
+	  background:rgba(255, 255, 255, 0.75);
+  bottom:0px;
+  position:absolute;
+  bottom:0px;
+  width:100%;
+  font-size: 14px;
+  padding:10px;
+  color:black;
+}
+.captions:hover > .cap2 {
+  background:rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
+  color:rgba(0, 0, 0, 0);
+}
+
+  @media screen and (max-width: 700px) {
+    .wholething {
+	  width: 100%;
+	  height: 435px;
+	  margin-left: 20px;
+	  float: right;
+	}
+
+	 .album-frame {
+	  position: absolute;
+	  width: 100%; height: 400px;
+	  padding: 10px;margin: auto;
+	  border: 1px solid hsla(0, 0%, 0%, .1);
+	}
+.album-frame .photo {
+  cursor: pointer;
+  cursor: -webkit-zoom-in;
+  position: absolute;
+  top: 90px; left: 10px; right: 10px; bottom: 10px;
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat:no-repeat;
+  display: block;
+  opacity: 0;
+  z-index: 0;
+  overflow: hidden;
+  -webkit-transition: opacity .3s linear;
+}
+  }
+  @media screen and (max-width: 600px) {
+	    .wholething {
+	  width: 100%;
+	  height: 435px;
+	  margin-left: 20px;
+	  float: right;
+	}
+
+	  .album-frame {
+	  position: absolute;
+	  width: 100%; height: 400px;
+	  margin-left: -10px;
+	  border: 1px solid hsla(0, 0%, 0%, .1);
+	}
+  }
+  @media screen and (max-width: 500px) {
+	    .wholething {
+		  width: 100%;
+		  height: 380px;
+		  margin-left: 20px;
+		  float: right;
+		}
+
+	  .album-frame {
+		  position: absolute;
+		  width: 100%; height: 340px;
+		  margin-left: -10px;
+		  border: 1px solid hsla(0, 0%, 0%, .1);
+		}
+	  }
+	  @media screen and (max-width: 400px) {
+	    .wholething {
+		  width: 100%;
+		  height: 335px;
+		  margin-left: 20px;
+		  float: right;
+		}
+
+	  .album-frame {
+		  position: absolute;
+		  width: 100%; height: 300px;
+		  margin-left: -10px;
+		  border: 1px solid hsla(0, 0%, 0%, .1);
+		}
+  }
+</style>
+<div class="wholething">
+<section class="album-frame">
+<!-- IMAGE ONE -->
+  <input type="radio" id="image_A" name="group_1" style="display:none;" checked>
+  <label class="thumb" for="image_A" style="background-image: url('https://s3.amazonaws.com/media.bsd/16526_ffm_tharvey_037f.JPG');"></label>
+  <div class="photo" style="background-image: url('https://s3.amazonaws.com/media.bsd/16526_ffm_tharvey_037f.JPG');"><div class="captions"><div style="background:rgba(255, 255, 255, 0);height:500px;"></div><div class="cap2">DN PHOTO ALISON CARROLL</div></div></div>
+  <!-- IMAGE ZERO -->
+    <input type="radio" id="image_0" name="group_1" style="display:none;"><label class="thumb" for="image_0" style="background-image: url('https://s3.amazonaws.com/media.bsd/16528_ffm_tharvey_043f.JPG');"></label><div class="photo" id="image_0" style="background-image: url('https://s3.amazonaws.com/media.bsd/16528_ffm_tharvey_043f.JPG');"><a class="caplink" href="#img1"><div style="width:100%;height:100%;background:none;"><div class="captions"><div class="cap2">DN PHOTO ALISON CARROLL</div></div></div></a></div>
+
+      <input type="radio" id="image_1" name="group_1" style="display:none;"><label class="thumb" for="image_1" style="background-image: url('https://s3.amazonaws.com/media.bsd/16517_ffm_tharvey_007f.JPG');"></label><div class="photo" id="image_1" style="background-image: url('https://s3.amazonaws.com/media.bsd/16517_ffm_tharvey_007f.JPG');"><a class="caplink" href="#img2"><div style="width:100%;height:100%;background:none;"><div class="captions"><div class="cap2">DN PHOTO ALISON CARROLL</div></div></div></a></div>
+
+        <input type="radio" id="image_2" name="group_1" style="display:none;"><label class="thumb" for="image_2" style="background-image: url('https://s3.amazonaws.com/media.bsd/16518_ffm_tharvey_008f.JPG');"></label><div class="photo" id="image_2" style="background-image: url('https://s3.amazonaws.com/media.bsd/16518_ffm_tharvey_008f.JPG');"><a class="caplink" href="#img3"><div style="width:100%;height:100%;background:none;"><div class="captions"><div class="cap2">DN PHOTO ALISON CARROLL</div></div></div></a></div>
+
+          <input type="radio" id="image_3" name="group_1" style="display:none;"><label class="thumb" for="image_3" style="background-image: url('https://s3.amazonaws.com/media.bsd/16514_ffm_tharvey_004f.JPG');"></label><div class="photo" id="image_3" style="background-image: url('https://s3.amazonaws.com/media.bsd/16514_ffm_tharvey_004f.JPG');"><a class="caplink" href="#img4"><div style="width:100%;height:100%;background:none;"><div class="captions"><div class="cap2">DN PHOTO ALISON CARROLL</div></div></div></a></div>
+
+		      <input type="radio" id="image_4" name="group_1" style="display:none;"><label class="thumb" for="image_4" style="background-image: url('https://s3.amazonaws.com/media.bsd/16515_ffm_tharvey_005f.JPG');"></label><div class="photo" id="image_4" style="background-image: url('https://s3.amazonaws.com/media.bsd/16515_ffm_tharvey_005f.JPG');"><a class="caplink" href="#img5"><div style="width:100%;height:100%;background:none;"><div class="captions"><div class="cap2">DN PHOTO ALISON CARROLL</div></div></div></a></div>
+
+		        <input type="radio" id="image_5" name="group_1" style="display:none;"><label class="thumb" for="image_5" style="background-image: url('https://s3.amazonaws.com/media.bsd/16513_ffm_tharvey_003f.JPG');"></label><div class="photo" id="image_5" style="background-image: url('https://s3.amazonaws.com/media.bsd/16513_ffm_tharvey_003f.JPG');"><a class="caplink" href="#img6"><div style="width:100%;height:100%;background:none;"><div class="captions"><div class="cap2">DN PHOTO ALISON CARROLL</div></div></div></a></div>
+
+		          <input type="radio" id="image_6" name="group_1" style="display:none;"><label class="thumb" for="image_6" style="background-image: url('https://s3.amazonaws.com/media.bsd/16512_ffm_tharvey_001f.JPG');"></label><div class="photo" id="image_6" style="background-image: url('https://s3.amazonaws.com/media.bsd/16512_ffm_tharvey_001f.JPG');"><a class="caplink" href="#img7"><div style="width:100%;height:100%;background:none;"><div class="captions"><div class="cap2">DN PHOTO ALISON CARROLL</div></div></div></a></div>
+
+		            <input type="radio" id="image_7" name="group_1" style="display:none;"><label class="thumb" for="image_7" style="background-image: url('https://s3.amazonaws.com/media.bsd/16519_ffm_tharvey_010f.JPG');"></label><div class="photo" id="image_7" style="background-image: url('https://s3.amazonaws.com/media.bsd/16519_ffm_tharvey_010f.JPG');"><a class="caplink" href="#img8"><div style="width:100%;height:100%;background:none;"><div class="captions"><div class="cap2">DN PHOTO ALISON CARROLL</div></div></div></a></div>
+
+		              <input type="radio" id="image_8" name="group_1" style="display:none;"><label class="thumb" for="image_8" style="background-image: url('https://s3.amazonaws.com/media.bsd/16523_ffm_tharvey_013f.JPG');"></label><div class="photo" id="image_8" style="background-image: url('https://s3.amazonaws.com/media.bsd/16523_ffm_tharvey_013f.JPG');"><a class="caplink" href="#img9"><div style="width:100%;height:100%;background:none;"><div class="captions"><div class="cap2">DN PHOTO ALISON CARROLL</div></div></div></a></div>
+
+		                <input type="radio" id="image_9" name="group_1" style="display:none;"><label class="thumb" for="image_9" style="background-image: url('https://s3.amazonaws.com/media.bsd/16522_ffm_tharvey_012f.JPG');"></label><div class="photo" id="image_9" style="background-image: url('https://s3.amazonaws.com/media.bsd/16522_ffm_tharvey_012f.JPG');"><a class="caplink" href="#img10"><div style="width:100%;height:100%;background:none;"><div class="captions"><div class="cap2">DN PHOTO ALISON CARROLL</div></div></div></a></div>
+
+		                  <input type="radio" id="image_10" name="group_1" style="display:none;"><label class="thumb" for="image_10" style="background-image: url('https://s3.amazonaws.com/media.bsd/16527_ffm_tharvey_020f.JPG');"></label><div class="photo" id="image_10" style="background-image: url('https://s3.amazonaws.com/media.bsd/16527_ffm_tharvey_020f.JPG');"><a class="caplink" href="#img11"><div style="width:100%;height:100%;background:none;"><div class="captions"><div class="cap2">DN PHOTO ALISON CARROLL</div></div></div></a></div>
+
+		                    <input type="radio" id="image_11" name="group_1" style="display:none;"><label class="thumb" for="image_11" style="background-image: url('https://s3.amazonaws.com/media.bsd/16529_ffm_tharvey_207f.JPG');"></label><div class="photo" id="image_11" style="background-image: url('https://s3.amazonaws.com/media.bsd/16529_ffm_tharvey_207f.JPG');"><a class="caplink" href="#img12"><div style="width:100%;height:100%;background:none;"><div class="captions"><div class="cap2">DN PHOTO ALISON CARROLL</div></div></div></a></div>
+
+		                      <input type="radio" id="image_12" name="group_1" style="display:none;"><label class="thumb" for="image_12" style="background-image: url('https://s3.amazonaws.com/media.bsd/16524_ffm_tharvey_015f.JPG');"></label><div class="photo" id="image_12" style="background-image: url('https://s3.amazonaws.com/media.bsd/16524_ffm_tharvey_015f.JPG');"><a class="caplink" href="#img13"><div style="width:100%;height:100%;background:none;"><div class="captions"><div class="cap2">DN PHOTO ALISON CARROLL</div></div></div></a></div>
+
+		                        <input type="radio" id="image_13" name="group_1" style="display:none;"><label class="thumb" for="image_13" style="background-image: url('https://s3.amazonaws.com/media.bsd/16525_ffm_tharvey_018f.JPG');"></label><div class="photo" id="image_13" style="background-image: url('https://s3.amazonaws.com/media.bsd/16525_ffm_tharvey_018f.JPG');"><a class="caplink" href="#img14"><div style="width:100%;height:100%;background:none;"><div class="captions"><div class="cap2"><strong>Travis Harvey</strong> examines "Sgt. Pepper's Lonely Hearts Club Band" by the Beatles. Harvey calls the record one of the most influential albums of his early life. <i>DN PHOTO ALISON CARROLL</div></i></div></div></a></div>
+
+		                          <input type="radio" id="image_14" name="group_1" style="display:none;"><label class="thumb" for="image_14" style="background-image: url('https://s3.amazonaws.com/media.bsd/16520_ffm_tharvey_009f.JPG');"></label><div class="photo" id="image_14" style="background-image: url('https://s3.amazonaws.com/media.bsd/16520_ffm_tharvey_009f.JPG');"><a class="caplink" href="#img15"><div style="width:100%;height:100%;background:none;"><div class="captions"><div class="cap2">DN PHOTO ALISON CARROLL</div></div></div></a></div>
+
+		                            <input type="radio" id="image_15" name="group_1" style="display:none;"><label class="thumb" for="image_15" style="background-image: url('https://s3.amazonaws.com/media.bsd/16521_ffm_tharvey_011f.JPG');"></label><div class="photo" id="image_15" style="background-image: url('https://s3.amazonaws.com/media.bsd/16521_ffm_tharvey_011f.JPG');"><a class="caplink" href="#img16"><div style="width:100%;height:100%;background:none;"><div class="captions"><div class="cap2">DN PHOTO ALISON CARROLL</div></div></div></a></div>
+
+		                              <input type="radio" id="image_16" name="group_1" style="display:none;"><label class="thumb" for="image_16" style="background-image: url('https://s3.amazonaws.com/media.bsd/16511_ffm_tharvey_002f.JPG');"></label><div class="photo" id="image_16" style="background-image: url('https://s3.amazonaws.com/media.bsd/16511_ffm_tharvey_002f.JPG');"><a class="caplink" href="#img17"><div style="width:100%;height:100%;background:none;"><div class="captions"><div class="cap2">DN PHOTO ALISON CARROLL</div></div></div></a></div>
+		</section>
+<section id="overlay"></section></div>
