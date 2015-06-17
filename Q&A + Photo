@@ -1,0 +1,325 @@
+<style type="text/css">
+        .margbox {
+            margin-bottom:10px;
+            margin-right:0;
+            margin-left:10px
+        }
+        
+        @media screen and (max-width: 800px) {
+            .margbox {
+                width:100%;
+            }
+        }
+        @media screen and (max-width: 600px) {
+               .margbox {
+                     width:100%;
+            }
+        }
+   
+        @media screen and (max-width: 500px) {
+            .margbox {
+                padding:10px;
+                width:100%;
+                margin-top:10px;
+                margin-bottom:20px;
+                margin-left:10px;
+                margin-right:0;
+            }
+        }
+        
+        table {
+            width:100%;
+             border:0px solid #fff;
+        }
+        
+.tableB {
+display:none;
+}
+        .tableC {
+display:none;
+}
+        .tableD {
+display:none;
+}
+
+        .pp {
+            padding-left:10px;
+            padding-right:10px;
+            line-height:23px;
+        }
+
+    .numbers {
+        font-size:20px;
+        float:left;
+        margin-top:15px;
+        padding-bottom:10px;
+        padding-top: 10px;
+        padding-right:10px;
+    }
+
+    dd {
+      display: block;
+      margin-left: 35px;
+      margin-top: -30px;
+      padding-top: 0px;
+      padding-bottom: 10px;
+    }
+</style>
+<style type="text/css">
+        .pictures {
+            float:right;
+            width:430px;
+            margin-left:25px;
+            font-size:13px;
+            line-height:17px;
+            margin-right:0
+        }
+        
+        .hrr {
+            display:none
+        }
+        
+
+
+        @media screen and (max-width: 1300px) {
+.tableA {
+    display: none
+}
+.tableB {
+    display: inline
+}
+        }
+
+        @media screen and (max-width: 1200px) {
+.tableB {
+    display: none
+}
+.tableC {
+    display: inline
+}            
+.pictures {
+                float:right;
+                width:270px;
+                margin-left:25px;
+                font-size:13px;
+                line-height:16px
+            }
+        }
+
+
+        @media screen and (max-width: 700px) {
+.tableC {
+    display: none
+}          
+        .tableD {
+display: inline
+}
+            .pictures {
+                float:none;
+                width:100%;
+                margin-right:0;
+                margin-left:0;
+                margin-top:25px;
+                margin-bottom:15px;
+                font-size:14px
+            }
+            
+            .hrr {
+                display:block
+            }
+        }
+</style>
+
+
+<table border="1" class="tableA" id="t01" style="float:left;">
+        <tr><td>
+                <p>
+                        The woman who resigned as head of a local NAACP branch, after her parents said she was white, said Tuesday that she started identifying as black around the age of 5, according to the Associated Press.
+                </p>
+        </td>
+        <td rowspan="3">
+                <p>
+                       <aside class="pictures">
+    <img src="http://media.bsd.s3.amazonaws.com/18953_gary_grahamp.jpg" style="width:100%;">
+    <p><strong>New mug of Spokesman-Review Editor Gary Graham</strong> taken on 1/5/2010. <i>COLIN MULVANY colinm@spokesman.com</i></p>
+</aside>
+                </p>
+        </td>
+</tr>
+    <tr><td>
+                <p>
+Rachel Dolezal has resigned as president of the Spokane, Washington branch of the NAACP, lost her position as a part-time African studies instructor at a local university, lost her job as a freelance newspaper columnist and become the subject of a probe by the city Ethics Commission, according to The Associated Press.
+                </p>
+                <p>
+Ball State 1972 graduate Gary Graham is editor at the Spokesman-Review in Spokane. The DN talked to him on Tuesday about the topic and how the story has unfolded.
+                </p>
+        </td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table border="1" class="tableB" id="t01" style="float:left;">
+        <tr><td>
+                <p>
+                        The woman who resigned as head of a local NAACP branch, after her parents said she was white, said Tuesday that she started identifying as black around the age of 5, according to the Associated Press.
+                </p>
+        </td>
+        <td rowspan="2">
+                <p>
+                       <aside class="pictures">
+    <img src="http://media.bsd.s3.amazonaws.com/18953_gary_grahamp.jpg" style="width:100%;">
+    <p><strong>New mug of Spokesman-Review Editor Gary Graham</strong> taken on 1/5/2010. <i>COLIN MULVANY colinm@spokesman.com</i></p>
+</aside>
+                </p>
+        </td>
+</tr>
+    <tr><td>
+                <p>
+Rachel Dolezal has resigned as president of the Spokane, Washington branch of the NAACP, lost her position as a part-time African studies instructor at a local university, lost her job as a freelance newspaper columnist and become the subject of a probe by the city Ethics Commission, according to The Associated Press.
+                </p>
+
+        </td>
+</tr>
+    <tr><td colspan="2">
+
+
+                <p>
+Ball State 1972 graduate Gary Graham is editor at the Spokesman-Review in Spokane. The DN talked to him on Tuesday about the topic and how the story has unfolded.
+                </p>
+        </td>
+</tr>
+</table>
+
+
+
+
+
+<table border="1" class="tableC" id="t01" style="float:left;">
+        <tr><td>
+                <p>
+                        The woman who resigned as head of a local NAACP branch, after her parents said she was white, said Tuesday that she started identifying as black around the age of 5, according to the Associated Press.
+                </p>
+        </td>
+        <td rowspan="2">
+                <p>
+                       <aside class="pictures">
+    <img src="http://media.bsd.s3.amazonaws.com/18953_gary_grahamp.jpg" style="width:100%;">
+    <p><strong>New mug of Spokesman-Review Editor Gary Graham</strong> taken on 1/5/2010. <i>COLIN MULVANY colinm@spokesman.com</i></p>
+</aside>
+                </p>
+        </td>
+</tr>
+    <tr><td>
+                <p>
+Rachel Dolezal has resigned as president of the Spokane, Washington branch of the NAACP, lost her position as a part-time African studies instructor at a local university, lost her job as a freelance newspaper columnist and become the subject of a probe by the city Ethics Commission, according to The Associated Press.
+                </p>
+
+        </td>
+</tr>
+    <tr><td colspan="2">
+                <p>
+Ball State 1972 graduate Gary Graham is editor at the Spokesman-Review in Spokane. The DN talked to him on Tuesday about the topic and how the story has unfolded.
+                </p>
+        </td>
+</tr>
+</table>
+
+
+
+
+
+
+
+<table border="1" class="tableD" id="t01" style="float:left;">
+<tr>        <td>
+                <p>
+                       <aside class="pictures">
+    <img src="http://media.bsd.s3.amazonaws.com/18953_gary_grahamp.jpg" style="width:100%;">
+    <p><strong>New mug of Spokesman-Review Editor Gary Graham</strong> taken on 1/5/2010. <i>COLIN MULVANY colinm@spokesman.com</i></p>
+</aside>
+                </p>
+        </td></tr>
+        <tr><td>
+                <p>
+                        The woman who resigned as head of a local NAACP branch, after her parents said she was white, said Tuesday that she started identifying as black around the age of 5, according to the Associated Press.
+                </p>
+        </td>
+</tr>
+    <tr><td>
+                <p>
+Rachel Dolezal has resigned as president of the Spokane, Washington branch of the NAACP, lost her position as a part-time African studies instructor at a local university, lost her job as a freelance newspaper columnist and become the subject of a probe by the city Ethics Commission, according to The Associated Press.
+                </p>
+
+        </td>
+</tr>
+    <tr><td>
+                <p>
+Ball State 1972 graduate Gary Graham is editor at the Spokesman-Review in Spokane. The DN talked to him on Tuesday about the topic and how the story has unfolded.
+                </p>
+        </td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+<table border="1" class="table1" id="t01" style="float:left;">
+        <tr><td colspan="3">
+                <p>
+                        <strong>Q:</strong>  <DD>Is there a large African-American community in Spokane?</DD>
+                </p>
+        </td></tr>
+        <tr><td colspan="3">
+                <p>
+                        <strong>A:</strong> <DD>"No, it’s very small. I hate to site the statistic, because I’d probably be wrong but it’s a very small African-American community here."</DD>
+                </p>
+        </td></tr>
+        <tr><td colspan="3">
+                <p>
+                        <strong>Q:</strong>  <DD>What are race relations like in this community? How big of a role did this NAACP chapter play?</DD>
+                </p>
+        </td></tr>
+        <tr><td colspan="3">
+                <p>
+                        <strong>A:</strong> <DD>"The NAACP, they have a presence here. I don’t know how many members they have, but they’ve always been perceived as an active group. In terms of race relations, boy you know, I’m probably not… I’m a white guy. I live in this community; I see mostly white faces day-to-day. Every community has a degree of racism; we would be naïve to deny that.“</DD>
+                </p>
+        </td></tr>
+        <tr><td colspan="3">
+                <p>
+                        <strong>Q:</strong>  <DD>When you and your journalists first learned that the NACCP President there might not be who she said she was, what was your initial reaction?</DD>
+                </p>
+        </td></tr>
+        <tr><td colspan="3">
+                <p>
+                        <strong>A:</strong> <DD>“One of our columnists had been researching this for some time. His editor and he had been talking about it. I didn’t become aware of it until last week, when it appeared that there were developments happening that we would want to write about. I never met Rachel Dolezal, she had a pretty good reputation in town, she was well-know. This story has gone internationally. We went about trying to cover it as best we could.”</DD>
+                </p>
+        </td></tr>
+        <tr><td colspan="3">
+                <p>
+                        <strong>Q:</strong>  <DD>What is it like for something like this to happen in the community that you live in?</DD>
+                </p>
+        </td></tr>
+        <tr><td colspan="3">
+                <p>
+                        <strong>A:</strong> <DD>"It’s both exciting and frustrating. Frustrating because this is not the kind of story that reflects well on your community, but as journalists it’s a hell of a story. We have been pursuing it very aggressively. There are almost new developments everyday that are coming out. This story’s not over yet.”</DD>
+                </p>
+        </td></tr>
+</table>
