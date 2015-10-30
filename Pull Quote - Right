@@ -1,9 +1,9 @@
 <style type="text/css">
 	.pullq {
 		float:right;
-		width:250px;
+		width:350px;
 		margin-left:25px;
-		margin-right:-125px;
+		margin-right:-25px;
 		margin-top:15px;
 		margin-bottom:15px;
 		font-size:14px;
@@ -105,6 +105,7 @@
         }
         .qmarks {
         	width:5%;
+	        margin-right: 25px;
         	float:right;
         	font-size:60px;
         	margin-bottom:8px;
@@ -120,7 +121,7 @@
 		<strong><div class="qmarks"><center>"</center></div></strong>
 	</td>
 	<td>
-		<center><strong>I really believe that music, good music especially, can make you a better person.</strong></center>
+		<center><strong>Not all referrals end in an arrest. The decision on whether to make an arrest or referral is based on the specific circumstances of each incident.</strong></center>
 	</td>
 	<td valign="top">
 		<strong><div class="qmarks"><center>"</center></div></strong>
@@ -128,6 +129,6 @@
 </tr>
 </tbody>
 </table>
-<center>- <em>Travis Harvey <br> Village Green Record's Owner</em></center>
+<center>- <em>Joan Todd</em></center>
 <hr class="hrrr">
 </aside>
