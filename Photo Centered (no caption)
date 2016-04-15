@@ -1,0 +1,38 @@
+<style type="text/css">
+        .pictures1 {
+            float:right;
+            width:100%;
+            margin-left:0px;
+            font-size:13px;
+            line-height:17px;
+            margin-right:0
+        }
+        .divv {
+              width:80%;
+              margin-left: 70px;
+          }
+
+        
+        @media screen and (max-width: 620px) {
+            .pictures1 {
+                float:none;
+                width:100%;
+                margin-right:0;
+                margin-left:0;
+                margin-top:25px;
+                margin-bottom:15px;
+                font-size:14px
+            }
+            
+        .divv {
+              width:100%;
+              margin-left: 0px;
+          }
+        }
+</style>
+<aside class="pictures1">
+<div class="divv">
+    <center><img src="LINKLINKLINKLINKLINKLINKLINKLINKLINKLINK" style="width:100%;">
+    <p style="text-align:right;"><i>&nbsp;</i></p></center>
+</div>
+</aside>
