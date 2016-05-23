@@ -120,7 +120,9 @@ display: none;
 <aside class="margbox">
     <table border="1" class="table1" id="t01" style="border: 3px solid #62a69f;float:left;">
         <tr>
-            <td colspan="1" style="background-color: #62A69F">&nbsp;</td>
+            <td colspan="1" style="background-color: #62A69F;color:white;font-size:20px;padding-top:8px;">
+                    <p class="pp"><strong>TITLETITLETITLETITLETITLETITLETITLE</strong></p>
+            </td>
         </tr>
 
         <tr>
@@ -198,7 +200,9 @@ display: block;
 <aside class="margbox1">
     <table border="1" class="table1" id="t01" style="border: 3px solid #62a69f;float:left;">
         <tr>
-            <td colspan="1" style="background-color: #62A69F">&nbsp;</td>
+            <td colspan="1" style="background-color: #62A69F;color:white;font-size:20px;padding-top:8px;">
+                    <p class="pp"><strong>TITLETITLETITLETITLETITLETITLETITLE</strong></p>
+            </td>
         </tr>
 
         <tr>
