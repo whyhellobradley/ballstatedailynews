@@ -1,0 +1,26 @@
+
+<table>
+<tbody>
+	<tr>
+		<td style="width: 125px;">
+	<!-- Image link (use "full-size image on Gryphon") -->
+			<img alt="" src="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" style="width: 125px; float: left; margin: 0px 20px 10px 0px; padding: 0px 10px 0px 0px">
+		</td>
+		<td style="width: 20px;">
+		</td>
+		<td>
+			<p>
+	<!-- Student name in italics -->
+				<em>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				</em>
+			</p>
+	<!-- Student quote -->
+			<p style="margin-bottom: 15px; font-family:">
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			</p>
+		</td>
+	</tr>
+</tbody>
+</table>
+<!-- Line after each table -->
+<hr>
